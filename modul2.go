@@ -6,13 +6,13 @@ import (
 )
 
 func main() {
-	// cek_kelipatan()
-	// hasil_ujian()
-	// hitung_ukuran_persegi_panjang()
-	// hitung_diskon_dan_total_bayar()
+	// cek_kelipatan_1304221031()
+	// hasil_ujian_1304221031()
+	// hitung_ukuran_persegi_panjang_1304221031()
+	// hitung_diskon_dan_total_bayar_1304221031()
 }
 
-func cek_kelipatan() {
+func cek_kelipatan_1304221031() {
 	var x int
 	fmt.Scan(&x)
 
@@ -24,7 +24,7 @@ func cek_kelipatan() {
 	}
 }
 
-func hasil_ujian() {
+func hasil_ujian_1304221031() {
 	var i, n, n_passed, n_failed int
 	var n1, n2, n3, avg float64
 
@@ -51,7 +51,7 @@ func hasil_ujian() {
 	fmt.Println("Jumlah siswa tidak lolos seleksi admistrasi", n_failed)
 }
 
-func hitung_ukuran_persegi_panjang() {
+func hitung_ukuran_persegi_panjang_1304221031() {
 	var length, width, area, perimeter, length_of_diagonal float64
 
 	fmt.Scan(&length, &width)
@@ -65,7 +65,7 @@ func hitung_ukuran_persegi_panjang() {
 	fmt.Println("Panjang diagonal: ", length_of_diagonal)
 }
 
-func hitung_diskon_dan_total_bayar() {
+func hitung_diskon_dan_total_bayar_1304221031() {
 	var date_of_birth, a, cd int
 	var total, discount, price float64
 
